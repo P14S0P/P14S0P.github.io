@@ -1,0 +1,415 @@
+/* === === === === === === Body === === === === === === */ 
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+body {
+    background-color: #ece0d1;
+    padding-top: 0%;
+    margin: 0%;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    text-align: center;
+}
+
+
+/* === === === === === === Nav === === === === === === */ 
+
+.pageicon {
+  width: 80px;
+  height: 80px;
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 5px 20px;
+
+}
+
+.principal {
+  background-color: #ffffff;
+  display: flex;
+  -webkit-box-shadow: #333 1px 3px 4px;
+	-moz-box-shadow: #333 1px 3px 4px;
+	box-shadow: #333 1px 3px 4px;
+  height: auto;
+}
+
+.header {
+	width: 100%;
+	height: 85px;
+	background: #12172B;
+	opacity: 100%;
+	overflow: hidden;
+  -webkit-box-shadow: #333 1px 3px 4px;
+	-moz-box-shadow: #333 1px 3px 4px;
+	box-shadow: #333 1px 3px 4px;
+  padding-top: 0.8%;
+  top: 0;
+  z-index: 2;
+  position: fixed;
+}
+
+svg.line-top {
+	width: 100%;
+	background-color: #ffd000;
+  opacity: 100%;
+}
+svg.line-bottom {
+	width: 100%;
+  opacity: 100%;
+}
+.menu {
+	width: 750px;
+	margin: 0 auto;
+  opacity: 100%;
+}
+ul {
+	padding: 0;
+	margin: 0;
+  opacity: 100%;
+}
+
+ul li {
+	margin: 0;
+	padding: 10px 0px 10px 0;
+	width: 25%;
+	height: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+	display: inline-block;
+	letter-spacing: 3.5px;
+	transition: all 0.5s ease-out;
+  font-size: 12px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+li>:active {
+	color: #ffd000;
+	transform: scale(1.1);
+}
+
+polygon {
+	stroke-width: 2px;
+	stroke: #ffd000;
+	fill: rgb(0, 0, 0);
+}
+
+/* === === === === === === Home === === === === === === */ 
+
+.metas {
+  display: -ms-inline-grid;
+  margin: 18.3%;
+}
+
+.metas-title {
+  font-size: 5rem;
+  text-align: left;
+  font-family: 'Playball', cursive;
+  margin-bottom: 0;
+  animation-name: opacit;
+  animation-duration: 5s;
+  color: #000000;
+  text-shadow: 1px 3px 0 #2727275b, 1px 13px 5px #2727275b;
+}
+
+.metas-title-2{
+  font-size: 3rem;
+  text-align: left;
+  font-family: 'Playball', cursive;
+  margin-top: 0; 
+  animation-name: opacit;
+  animation-duration: 5s;
+  color: #000000;
+  text-shadow: 1px 3px 0 #2727275b, 1px 13px 5px #2727275b;
+}
+
+/* === === === === === === Goals === === === === === === */ 
+
+.goals-h1 {
+  background-color: #46574D;
+  padding: 2.8%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  color: #ffd000;
+  text-shadow: 1px 3px 0 #2727275b, 1px 13px 5px #2727275b;
+}
+
+
+.ftregoals {
+  font-size: 4rem;
+  font-family: 'Playball', cursive;
+  transform: translateY(48px);
+  animation-name: opacit;
+  animation-duration: 5s;
+}
+
+.bgrcards {
+  background-color: #46574D;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ftglscrd {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3.8%;
+  
+}
+
+.card {
+  width: 190px;
+  height: 254px;
+  background: rgb(236, 236, 236);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+  margin: 10px;
+}
+
+.crdh1 {
+  font-size: 1.4rem;
+  font-family: 'Playball', cursive;
+  margin: 10px;
+  animation-name: opacit;
+  animation-duration: 5s;
+}
+
+.parah1 {
+  font-size: 1rem;
+  margin: 10px;
+  animation-name: opacit;
+  animation-duration: 5s;
+}
+
+/* === === === === === === Money === === === === === === */ 
+
+.money-background {
+  background-color: #ece0d1;
+}
+
+.Quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quot {
+  background-color: #ffffff;
+  margin: 4%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 12px, rgba(0, 0, 0, 0.4) 0px 21px 13px -9px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+  overflow: hidden;
+  width: 1200px;
+}
+
+.quot-inside {
+  position: relative;
+  overflow-y: scroll;
+  height: 355px;
+  margin: 4%;
+  text-align: left;
+}
+
+.quot-inside-div-h1 {
+  padding: 2.8%;
+  background-color: #ece0d1;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quot-inside-h1 {
+  font-size: 4rem;
+  font-family: 'Playball', cursive;
+  transform: translateY(48px);
+  animation-name: opacit;
+  animation-duration: 5s;
+  text-shadow: 1px 3px 0 #2727275b, 1px 13px 5px #2727275b;
+}
+
+.ps {
+  justify-content: center;
+}
+
+input[type=text] {
+  background-color: #12172B;
+  color: #ffffff;
+  font-size: 1.5rem;
+  width: 86%;
+  height: 50px;
+  margin-bottom: 2%;
+  border: none;
+  border-radius: 0;
+  border-width: 0;
+  border-style: none;
+  border-image: none;
+  font-family: 'Playball', cursive;
+  padding: 0;
+}
+
+::-webkit-input-placeholder {
+  transform: translateX(15px);
+  color: #ffd000;
+}
+
+.uploadquote {
+  width: 5%;
+  height: 50px;
+  background-color: #12172B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.uploadicon {
+  width: 55%;
+  height: 32px;
+}
+
+.prgraf {
+  font-size: 1.5rem;
+  animation-name: opacit;
+  animation-duration: 5s;
+}
+
+/* === === === === === === Daily Check === === === === === === */ 
+
+.dailypart {
+  padding: 2.8%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #46574D;
+}
+
+.daily-inside-h1 {
+  font-size: 4rem;
+  font-family: 'Playball', cursive;
+  transform: translateY(48px);
+  animation-name: opacit;
+  animation-duration: 5s;
+  color: #ffd000;
+  text-shadow: 1px 3px 0 #2727275b, 1px 13px 5px #2727275b;
+}
+
+.goddamdailys {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #46574D;
+}
+
+.checkdaily {
+  background-color: #ffffff;
+  margin: 4%;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 12px, rgba(0, 0, 0, 0.4) 0px 21px 13px -9px, rgba(0, 0, 0, 0.2) 0px -6px 0px inset;
+  overflow: hidden;
+  width: 1200px;
+}
+
+.checkdaily-inside {
+  position: relative;
+  overflow-y: scroll;
+  height: 400px;
+  margin: 5%;
+  text-align: left;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  animation-name: opacit;
+  animation-duration: 5s;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #dddddd;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 2px;
+
+}
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+  background-color: #000000;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.container .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid #ffffff;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* === === === === === === Scrollbar === === === === === === */ 
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #12172B; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #ffd000; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd000; 
+}
+
+/* === === === === === === @Keyframes === === === === === === */ 
+
+@keyframes opacit {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
